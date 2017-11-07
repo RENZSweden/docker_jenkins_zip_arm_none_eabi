@@ -13,7 +13,7 @@ RUN apt-get update && \
 		zip \
 		gradle \
 		eclipse-cdt \
-		gcc-arm-none-eabi && \
+		gcc-arm-none-eabi* && \
 	apt-get autoremove && \
 	apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/apt/archive/*.deb
