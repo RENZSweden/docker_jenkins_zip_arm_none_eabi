@@ -1,4 +1,5 @@
 FROM jenkins/jenkins:latest
+
 MAINTAINER Johan Axfors <johan@axfors.se>
 
 ENV DEBIAN_FRONTEND noninteractive
