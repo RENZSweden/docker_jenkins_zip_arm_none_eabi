@@ -12,6 +12,7 @@ RUN apt-get update && \
     apt-get -y install \
 		zip \
 		gradle \
+		eclipse \
 		gcc-arm-none-eabi && \
 	apt-get autoremove && \
 	apt-get clean && \
