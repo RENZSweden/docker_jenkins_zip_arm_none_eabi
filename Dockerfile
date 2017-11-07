@@ -11,7 +11,9 @@ RUN mkdir /var/lib/apt/lists/partial
 RUN apt-get update && \ 
     apt-get -y install \
 		zip \
-		gradle \
+		gradle && \
+	apt-get autoremove && \
+	apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/apt/archive/*.deb
     
     USER jenkins
