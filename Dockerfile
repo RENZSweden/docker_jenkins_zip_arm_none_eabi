@@ -13,7 +13,7 @@ RUN apt-get update && \
     apt-get -y install \
 		zip \
 		openjdk-7-jre \
-		jenkins \
+		jenkins && \
 	apt-get autoremove && \
 	apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/apt/archive/*.deb
