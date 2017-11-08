@@ -1,4 +1,4 @@
-FROM debian:jessie:8
+FROM debian:8
 
 MAINTAINER Johan Axfors <johan@axfors.se>
 
