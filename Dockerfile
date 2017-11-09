@@ -12,6 +12,7 @@ RUN apt-get update && \
     apt-get -y install \
 		binutils-arm-none-eabi \
 		arm-none-eabi-* \
+		gcc \
 		make \
 		zip && \
 	apt-get autoremove && \
