@@ -9,7 +9,11 @@ USER root
 RUN mkdir /var/lib/apt/lists/partial
 
 RUN apt-get update && \ 
-    apt-get -y install \
+	apt-get -y install \
+    	binutils-arm-none-eabi \
+		arm-none-eabi-* \
+		gcc \
+		make \
 		zip && \
 	apt-get autoremove && \
 	apt-get clean && \
