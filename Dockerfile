@@ -10,7 +10,6 @@ RUN mkdir /var/lib/apt/lists/partial
 
 RUN apt-get update && \ 
     apt-get -y install \
-		eclipse-cdt \
 		binutils-arm-none-eabi \
 		arm-none-eabi-* \
 		gcc \
