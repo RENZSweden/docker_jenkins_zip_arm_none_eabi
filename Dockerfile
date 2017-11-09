@@ -13,7 +13,6 @@ RUN apt-get update && \
 		binutils-arm-none-eabi \
 		arm-none-eabi-* \
 		make \
-		gcc \
 		zip && \
 	apt-get autoremove && \
 	apt-get clean && \
