@@ -14,6 +14,7 @@ RUN apt-get update && \
 		arm-none-eabi-* \
 		gcc \
 		make \
+		expect \
 		zip && \
 	apt-get autoremove && \
 	apt-get clean && \
