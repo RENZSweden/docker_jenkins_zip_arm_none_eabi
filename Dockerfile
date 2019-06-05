@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:latest
+FROM jenkins/jenkins:2.168
 
 ENV DEBIAN_FRONTEND noninteractive
 
